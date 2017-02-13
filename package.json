@@ -1,0 +1,9 @@
+{
+  "name": "avow",
+  "version": "1.0.0",
+  "description": "Avow is a minimalist assertion function with no dependencies, that works in the browser (script tag) or Node.js (require).",
+  "main": "avow.js",
+  "repository": {},
+  "author": "Collin Schneider",
+  "license": "MIT"
+}
