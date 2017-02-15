@@ -62,6 +62,8 @@ console.timeEnd('Total Running Time')
 </html>
 ```
 
+browser.js
+
 ```javascript
 console.time('Total Running Time')
 
