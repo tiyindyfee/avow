@@ -1,21 +1,24 @@
 // Open Terminal and run `node node.js` to see test results.
 
-var avow = require('./avow.js');
+const avow = require('./avow.js')
 
 console.time('Total Running Time')
+
 avow('Simple assertion that one equals one.', 1 === 1)
 
 avow('Numbers', () => {
   {
     let expected = 1,
         actual = 2
+
     avow('1 should equal 1', expected === actual, expected, actual)
   }
 })
 
 avow('Math', () => {
   let expected = 2,
-        actual = 1 + 1
+      actual = 1 + 1
+
   avow('1 added to 1 should equal 2', expected === actual, expected, actual)
 })
 
